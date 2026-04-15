@@ -1,6 +1,9 @@
 # need this to run first to install the module: pip install -e .
 # then run: pytest
-# 
+# run pytest -v to get a list of each test function rather than dots
+# To measure the code coverage of your tests: To measure the code coverage of your tests
+# view a simple coverage report: coverage report
+# An HTML report allows you to see which lines were covered in each file: coverage html
 
 import os
 import tempfile
